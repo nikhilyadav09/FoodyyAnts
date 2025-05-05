@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodyAnts - Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <span>FoodyAnts</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="menu.html" class="active">Menu</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <!-- Menu Hero Section -->
+    <div class="page-hero menu-hero">
+        <div class="page-hero-content">
+            <h1>Our Menu</h1>
+            <p>Culinary creations that delight your senses</p>
+        </div>
+    </div>
+
+    <!-- Menu Navigation -->
+    <div class="menu-navigation">
+        <div class="container">
+            <ul class="menu-nav-tabs">
+                <li class="active" data-target="starters">Starters</li>
+                <li data-target="mains">Main Course</li>
+                <li data-target="signature">Signature Dishes</li>
+                <li data-target="desserts">Desserts</li>
+                <li data-target="beverages">Beverages</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Menu Content -->
+    <section class="menu-content">
+        <div class="container">
+            <!-- Starters -->
+            <div id="starters" class="menu-category active">
+                <div class="category-header">
+                    <h2>Starters</h2>
+                    <p>Begin your culinary journey with these delectable appetizers</p>
+                </div>
+                
+                <div class="menu-items-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Crispy Vegetable Spring Rolls</h3>
+                            <span class="price">₹199</span>
+                        </div>
+                        <p class="description">Hand-rolled spring rolls filled with julienned vegetables and served with sweet chili sauce</p>
+                        <div class="dietary-info">
+                            <span class="veg"><i class="fas fa-leaf"></i> Vegetarian</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Paneer Tikka</h3>
+                            <span class="price">₹249</span>
+                        </div>
+                        <p class="description">Marinated cottage cheese cubes grilled to perfection in a tandoor with bell peppers and onions</p>
+                        <div class="dietary-info">
+                            <span class="veg"><i class="fas fa-leaf"></i> Vegetarian</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Chili Garlic Prawns</h3>
+                            <span class="price">₹349</span>
+                        </div>
+                        <p class="description">Tiger prawns stir-fried with garlic, red chili, and spring onions, served with lemon wedges</p>
+                        <div class="dietary-info">
+                            <span class="non-veg"><i class="fas fa-drumstick-bite"></i> Non-Vegetarian</span>
+                            <span class="spicy"><i class="fas fa-pepper-hot"></i> Spicy</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Mushroom Bruschetta</h3>
+                            <span class="price">₹229</span>
+                        </div>
+                        <p class="description">Garlic-rubbed sourdough toast topped with sautéed wild mushrooms, truffle oil, and fresh herbs</p>
+                        <div class="dietary-info">
+                            <span class="veg"><i class="fas fa-leaf"></i> Vegetarian</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Chicken Tikka</h3>
+                            <span class="price">₹279</span>
+                        </div>
+                        <p class="description">Tender pieces of chicken marinated in yogurt and spices, grilled in tandoor</p>
+                        <div class="dietary-info">
+                            <span class="non-veg"><i class="fas fa-drumstick-bite"></i> Non-Vegetarian</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Papdi Chaat</h3>
+                            <span class="price">₹189</span>
+                        </div>
+                        <p class="description">Crispy flour crackers topped with potatoes, chickpeas, yogurt, and tangy chutneys</p>
+                        <div class="dietary-info">
+                            <span class="veg"><i class="fas fa-leaf"></i> Vegetarian</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Main Course -->
+            <div id="mains" class="menu-category">
+                <div class="category-header">
+                    <h2>Main Course</h2>
+                    <p>Hearty and satisfying dishes full of flavor</p>
+                </div>
+                
+                <div class="menu-items-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Butter Chicken</h3>
+                            <span class="price">₹349</span>
+                        </div>
+                        <p class="description">Tender chicken pieces in a rich tomato and butter gravy, flavored with fenugreek leaves</p>
+                        <div class="dietary-info">
+                            <span class="non-veg"><i class="fas fa-drumstick-bite"></i> Non-Vegetarian</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Paneer Butter Masala</h3>
+                            <span class="price">₹299</span>
+                        </div>
+                        <p class="description">Cottage cheese cubes in a creamy tomato gravy with ginger, garlic, and Indian spices</p>
+                        <div class="dietary-info">
+                            <span class="veg"><i class="fas fa-leaf"></i> Vegetarian</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Classic Margherita Pizza</h3>
+                            <span class="price">₹399</span>
+                        </div>
+                        <p class="description">Wood-fired thin crust topped with San Marzano tomato sauce, fresh mozzarella, and basil</p>
+                        <div class="dietary-info">
+                            <span class="veg"><i class="fas fa-leaf"></i> Vegetarian</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Grilled Salmon</h3>
+                            <span class="price">₹549</span>
+                        </div>
+                        <p class="description">Norwegian salmon fillet served with lemon butter sauce, asparagus, and herb-roasted potatoes</p>
+                        <div class="dietary-info">
+                            <span class="non-veg"><i class="fas fa-fish"></i> Seafood</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Dal Makhani</h3>
+                            <span class="price">₹249</span>
+                        </div>
+                        <p class="description">Black lentils slow-cooked overnight with tomatoes, cream, and butter</p>
+                        <div class="dietary-info">
+                            <span class="veg"><i class="fas fa-leaf"></i> Vegetarian</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Lamb Biryani</h3>
+                            <span class="price">₹399</span>
+                        </div>
+                        <p class="description">Fragrant basmati rice layered with tender lamb pieces and aromatic spices, served with raita</p>
+                        <div class="dietary-info">
+                            <span class="non-veg"><i class="fas fa-drumstick-bite"></i> Non-Vegetarian</span>
+                            <span class="spicy"><i class="fas fa-pepper-hot"></i> Spicy</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Signature Dishes -->
+            <div id="signature" class="menu-category">
+                <div class="category-header">
+                    <h2>Signature Dishes</h2>
+                    <p>Chef's special creations that define our culinary expertise</p>
+                </div>
+                
+                <div class="menu-items-grid">
+                    <div class="menu-item signature-item">
+                        <div class="menu-item-header">
+                            <h3>Tandoori Mushroom Risotto</h3>
+                            <span class="price">₹349</span>
+                        </div>
+                        <p class="description">Italian arborio rice cooked with tandoori-spiced mushrooms, finished with parmesan</p>
+                        <div class="dietary-info">
+                            <span class="veg"><i class="fas fa-leaf"></i> Vegetarian</span>
+                            <span class="chef-special"><i class="fas fa-star"></i> Chef's Special</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item signature-item">
+                        <div class="menu-item-header">
+                            <h3>Truffle Butter Chicken</h3>
+                            <span class="price">₹499</span>
+                        </div>
+                        <p class="description">Our famous butter chicken elevated with imported truffle oil and cream</p>
+                        <div class="dietary-info">
+                            <span class="non-veg"><i class="fas fa-drumstick-bite"></i> Non-Vegetarian</span>
+                            <span class="chef-special"><i class="fas fa-star"></i> Chef's Special</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item signature-item">
+                        <div class="menu-item-header">
+                            <h3>Kerala Coconut Fish Curry</h3>
+                            <span class="price">₹449</span>
+                        </div>
+                        <p class="description">Fresh sea bass in a fragrant coconut milk curry with curry leaves and mustard seeds</p>
+                        <div class="dietary-info">
+                            <span class="non-veg"><i class="fas fa-fish"></i> Seafood</span>
+                            <span class="chef-special"><i class="fas fa-star"></i> Chef's Special</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item signature-item">
+                        <div class="menu-item-header">
+                            <h3>Quinoa Stuffed Bell Peppers</h3>
+                            <span class="price">₹329</span>
+                        </div>
+                        <p class="description">Colorful bell peppers filled with spiced quinoa, vegetables, and feta cheese</p>
+                        <div class="dietary-info">
+                            <span class="veg"><i class="fas fa-leaf"></i> Vegetarian</span>
+                            <span class="chef-special"><i class="fas fa-star"></i> Chef's Special</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Desserts -->
+            <div id="desserts" class="menu-category">
+                <div class="category-header">
+                    <h2>Desserts</h2>
+                    <p>Sweet endings to a perfect meal</p>
+                </div>
+                
+                <div class="menu-items-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Mango Tango Cheesecake</h3>
+                            <span class="price">₹299</span>
+                        </div>
+                        <p class="description">Creamy cheesecake with layers of fresh mango pulp on a crunchy biscuit base</p>
+                        <div class="dietary-info">
+                            <span class="veg"><i class="fas fa-leaf"></i> Vegetarian</span>
+                            <span class="seasonal"><i class="fas fa-calendar-alt"></i> Seasonal</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Chocolate Lava Cake</h3>
+                            <span class="price">₹279</span>
+                        </div>
+                        <p class="description">Warm chocolate cake with a molten center, served with vanilla ice cream</p>
+                        <div class="dietary-info">
+                            <span class="veg"><i class="fas fa-leaf"></i> Vegetarian</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Saffron Pistachio Kulfi</h3>
+                            <span class="price">₹219</span>
+                        </div>
+                        <p class="description">Traditional Indian ice cream infused with saffron and crushed pistachios</p>
+                        <div class="dietary-info">
+                            <span class="veg"><i class="fas fa-leaf"></i> Vegetarian</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Tiramisu</h3>
+                            <span class="price">₹249</span>
+                        </div>
+                        <p class="description">Classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone cream</p>
+                        <div class="dietary-info">
+                            <span class="veg"><i class="fas fa-leaf"></i> Vegetarian</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Beverages -->
+            <div id="beverages" class="menu-category">
+                <div class="category-header">
+                    <h2>Beverages</h2>
+                    <p>Refreshing drinks to complement your meal</p>
+                </div>
+                
+                <div class="menu-items-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Fresh Lime Soda</h3>
+                            <span class="price">₹99</span>
+                        </div>
+                        <p class="description">Refreshing homemade lime soda, available sweet, salty, or mixed</p>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Mango Lassi</h3>
+                            <span class="price">₹129</span>
+                        </div>
+                        <p class="description">Thick yogurt drink blended with fresh mango pulp and a hint of cardamom</p>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Masala Chai</h3>
+                            <span class="price">₹89</span>
+                        </div>
+                        <p class="description">Traditional Indian spiced tea with ginger, cardamom, and other aromatic spices</p>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Rose & Mint Mojito</h3>
+                            <span class="price">₹149</span>
+                        </div>
+                        <p class="description">Refreshing mocktail with mint leaves, rose syrup, lime juice, and soda</p>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Fresh Fruit Juice</h3>
+                            <span class="price">₹119</span>
+                        </div>
+                        <p class="description">Choice of seasonal fruits freshly juiced (orange, watermelon, pineapple, or mixed)</p>
+                        <div class="dietary-info">
+                            <span class="seasonal"><i class="fas fa-calendar-alt"></i> Seasonal Options</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3>Filter Coffee</h3>
+                            <span class="price">₹109</span>
+                        </div>
+                        <p class="description">South Indian style strong brewed coffee served with hot milk</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Dietary Needs -->
+    <section class="dietary-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Special Dietary Requirements</h2>
+                <p>Your comfort is our priority</p>
+            </div>
+            
+            <div class="dietary-info-content">
+                <p>At FoodyAnts, we believe everyone should enjoy a delicious meal regardless of dietary restrictions. If you have specific allergies or dietary requirements, please inform our staff, and our chefs will be happy to accommodate your needs.</p>
+                
+                <div class="dietary-options">
+                    <div class="dietary-option">
+                        <i class="fas fa-seedling"></i>
+                        <span>Vegan options available</span>
+                    </div>
+                    
+                    <div class="dietary-option">
+                        <i class="fas fa-bread-slice"></i>
+                        <span>Gluten-free alternatives</span>
+                    </div>
+                    
+                    <div class="dietary-option">
+                        <i class="fas fa-exclamation-circle"></i>
+                        <span>Nut-free preparation on request</span>
+                    </div>
+                    
+                    <div class="dietary-option">
+                        <i class="fas fa-fire-alt"></i>
+                        <span>Spice level adjustable</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chef's Note -->
+    <section class="chefs-note">
+        <div class="container">
+            <div class="note-content">
+                <h2>A Note from Chef Rahul</h2>
+                <p>"Our menu is a reflection of my culinary journey across continents, bringing together the finest techniques and flavors from around the world while celebrating the rich heritage of Indian cuisine. We source our ingredients locally whenever possible and prepare everything fresh daily. Each dish tells a story, and I hope you enjoy the narrative as much as the flavors. Bon appétit!"</p>
+                <img src="data:image/jpeg;base64,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" alt="Chef Rahul Signature" class="chef-signature">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h2>FoodyAnts</h2>
+                <p>Taste Once, Remember Forever</p>
+            </div>
+            
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-phone"></i> +91 9876543210</p>
+                <p><i class="fas fa-envelope"></i> contact@foodyants.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> 123 MG Road, Bhopal, MP</p>
+            </div>
+            
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 FoodyAnts. All rights reserved.</p>
+            <div class="footer-bottom-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
